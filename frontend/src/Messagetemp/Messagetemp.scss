@@ -1,0 +1,47 @@
+$text: #fdf7f2;
+$background: #000000;
+$primary-button: #2adf85;
+$secondary-button: #1b0f04;
+$accent: #52158e;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Yeseva+One&display=swap');
+
+.Messagetemp {
+    .text {
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      color: white;
+      display: inline-block;
+      display: flex;
+      flex-direction: column;
+      clear: both;
+      max-width: 70%;
+    }
+  
+    .right {
+      float: right;
+      background-color: $primary-button;
+    }
+  
+    .left {
+      float: left;
+      background-color: rgb(32, 44,51);
+    }
+  }
+.username{
+  font-family: 'Yeseva One', cursive;
+  font-size: clamp(0.7vw,0.7rem,1vw);
+}
+.messagetext{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: clamp(1.2vw,1.2rem,1.3vw);
+}
+.color-0{
+  color: rgb(12, 202, 149);
+}
+.color-1{
+  color: rgb(231, 151, 117);
+}
+.color-2{
+color: rgb(226, 106, 182);
+}

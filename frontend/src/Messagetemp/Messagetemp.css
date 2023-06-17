@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Yeseva+One&display=swap");
+.Messagetemp .text {
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  color: white;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  clear: both;
+  max-width: 70%;
+}
+.Messagetemp .right {
+  float: right;
+  background-color: #2adf85;
+}
+.Messagetemp .left {
+  float: left;
+  background-color: blue;
+}
+
+.username {
+  font-family: "Yeseva One", cursive;
+  font-size: clamp(0.7vw, 0.7rem, 1vw);
+}
+
+.messagetext {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: clamp(1.1vw, 1rem, 1.3vw);
+}/*# sourceMappingURL=Messagetemp.css.map */

@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+3:wght@300&display=swap");
+
+$text: #fdf7f2;
+$background: #000000;
+$primary-button: #2adf85;
+$secondary-button: #1b0f04;
+$accent: #52158e;
+* {
+  margin: 0;
+  padding: 0;
+  // border: 2px solid green;
+}
+.home {
+  background-color: $accent;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  .container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../Assets/whatsppbg.jpg);
+    .head {
+      padding: 10px 0;
+      background-color: $background;
+      display: flex;
+      justify-content: center;
+      button{
+        width: 320px;
+        height: 30px;
+        cursor: pointer;
+        color: red;
+      }
+    }
+    .textmessage {
+      overflow: auto;
+      padding:5px 10px 15px 10px;
+    }
+
+    .foot {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 2%;
+      padding: 6px 0;
+      input {
+        width: 80%;
+        border-radius: 20px;
+        height: 30px;
+        padding: 0 0 0 20px;
+        background-color: rgb(42, 57, 66);
+        color: grey;
+      }
+      img {
+        background-color: $primary-button;
+        border-radius: 50%;
+        cursor: pointer;
+        width: 8%;
+      }
+    }
+  }
+}
+.entertext:focus{
+  border: none;
+}

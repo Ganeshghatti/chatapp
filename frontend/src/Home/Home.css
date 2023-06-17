@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+3:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  background-color: #52158e;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.home .container {
+  background-color: #000000;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home .container .head {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 0 0;
+}
+.home .container .head button {
+  width: 320px;
+  height: 40px;
+  cursor: pointer;
+}
+.home .container .textmessage {
+  overflow: auto;
+  padding: 5px 10px;
+}
+.home .container .foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+.home .container .foot input {
+  width: 80%;
+  border-radius: 10px;
+  height: 40px;
+  padding: 0 0 0 20px;
+}
+.home .container .foot img {
+  background-color: #2adf85;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 8%;
+}/*# sourceMappingURL=Home.css.map */

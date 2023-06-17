@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+3:wght@300&display=swap');
+
+$text: #fdf7f2;
+$background: #000000;
+$primary-button: #2adf85;
+$secondary-button: #1b0f04;
+$accent: #52158e;
+
+.app {
+  color: $text;
+  background-color:$background ;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  form {
+    background-color: $accent;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    gap: 2vw;
+    padding: 2vw;
+    h1 {
+      font-family: 'Oswald', sans-serif;
+    }
+    input {
+      width: 75%;
+      height: 40px;
+      padding: 0 1vw;
+      border-radius: 5px;
+      font-family: 'Source Sans 3', sans-serif;
+    }
+  }
+}
+.error {
+  color: red;
+  font-size: 75%;
+  font-family: 'Source Sans 3', sans-serif;
+}
+.next-button {
+  background-color:$primary-button;
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  font-family: 'Source Sans 3', sans-serif;
+  cursor: pointer;
+}
+.loginlink{
+  color: #ff9800  ;
+  text-decoration: none;
+}
